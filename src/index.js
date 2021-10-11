@@ -81,7 +81,7 @@ class App extends React.Component {
     const expandedimg = tfimg.transpose([0, 1, 2]).expandDims();
     return expandedimg;
   }
-
+  //iiii
   buildDetectedObjects(scores, threshold, boxes, classes, classesDir) {
     const detectionObjects = [];
     var video_frame = document.getElementById("frame");
